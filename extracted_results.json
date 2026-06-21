@@ -1,0 +1,437 @@
+[
+  {
+    "conversation_id": "conv_01",
+    "channel": "在线",
+    "agent": "小王",
+    "turn_count": 5,
+    "user_issue_summary": "我三天前买的蓝牙耳机，今天发现左耳没声音，能退款吗？...可以，谢谢",
+    "issue_categories": [
+      "退货退款",
+      "商品质量问题",
+      "物流问题",
+      "商品咨询"
+    ],
+    "resolution": "已发起退款申请",
+    "is_resolved": true,
+    "user_sentiment": "positive",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": true
+  },
+  {
+    "conversation_id": "conv_02",
+    "channel": "在线",
+    "agent": "小李",
+    "turn_count": 5,
+    "user_issue_summary": "快递显示已签收但我没收到啊...好吧",
+    "issue_categories": [
+      "物流问题",
+      "建议/反馈"
+    ],
+    "resolution": "那请您稍等，我帮您联系快递公司核实派送情况，会在24小时内给您回复。",
+    "is_resolved": true,
+    "user_sentiment": "neutral",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": false
+  },
+  {
+    "conversation_id": "conv_03",
+    "channel": "在线",
+    "agent": "小王",
+    "turn_count": 4,
+    "user_issue_summary": "为什么我的50元优惠券用不了...那我再买件衣服就行了吧",
+    "issue_categories": [
+      "优惠券/价格"
+    ],
+    "resolution": "是的，选购12元以上的服装类商品就可以使用了。",
+    "is_resolved": false,
+    "user_sentiment": "neutral",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": false
+  },
+  {
+    "conversation_id": "conv_04",
+    "channel": "电话",
+    "agent": "小张",
+    "turn_count": 6,
+    "user_issue_summary": "我收到短信说账号异地登录了，是真的吗？我好害怕...好的我马上去改",
+    "issue_categories": [
+      "商品咨询",
+      "账号安全",
+      "建议/反馈"
+    ],
+    "resolution": "好的，修改完成后如果还有异常登录提醒，随时联系我们。",
+    "is_resolved": true,
+    "user_sentiment": "positive",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": false
+  },
+  {
+    "conversation_id": "conv_05",
+    "channel": "在线",
+    "agent": "小李",
+    "turn_count": 5,
+    "user_issue_summary": "你们什么破服务！！等了20分钟都没人理我！！我要投诉！！！...行吧，赶紧发",
+    "issue_categories": [
+      "商品质量问题",
+      "优惠券/价格",
+      "商品咨询",
+      "投诉态度"
+    ],
+    "resolution": "补发商品",
+    "is_resolved": true,
+    "user_sentiment": "negative",
+    "has_multiple_issues": false,
+    "special_handling": "补偿优惠券",
+    "missing_info": false
+  },
+  {
+    "conversation_id": "conv_06",
+    "channel": "在线",
+    "agent": "小王",
+    "turn_count": 4,
+    "user_issue_summary": "我想问一下这个退货的事情，对了我那个快递到了没...退货的是 DD20240301-5523，快递的是 DD20",
+    "issue_categories": [
+      "退货退款",
+      "物流问题",
+      "商品咨询"
+    ],
+    "resolution": "DD20240301-5523 的退货申请已审核通过，请您按照退货地址寄回商品。DD20240305-8812 目前显示在配送中，预计今天下午送达。",
+    "is_resolved": true,
+    "user_sentiment": "neutral",
+    "has_multiple_issues": true,
+    "special_handling": null,
+    "missing_info": true
+  },
+  {
+    "conversation_id": "conv_07",
+    "channel": "在线",
+    "agent": "小张",
+    "turn_count": 4,
+    "user_issue_summary": "我要退的这个订单里有两个东西，我只想退其中一个行不行...就那个蓝色的杯子不要了，碗还是要的",
+    "issue_categories": [
+      "退货退款"
+    ],
+    "resolution": "好的，已为您发起蓝色杯子的退货申请，碗不受影响。退货后杯子的款项会在1-3个工作日退回。",
+    "is_resolved": true,
+    "user_sentiment": "neutral",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": false
+  },
+  {
+    "conversation_id": "conv_08",
+    "channel": "在线",
+    "agent": "小李",
+    "turn_count": 3,
+    "user_issue_summary": "这个充电宝能带上飞机吗...好的谢谢",
+    "issue_categories": [],
+    "resolution": "这款充电宝额定容量是20000mAh（约74Wh），根据民航局规定，额定能量不超过100Wh的充电宝可以随身携带上飞机（不能托运）。所以这款是可以带上飞机的。",
+    "is_resolved": false,
+    "user_sentiment": "positive",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": false
+  },
+  {
+    "conversation_id": "conv_09",
+    "channel": "电话",
+    "agent": "小王",
+    "turn_count": 6,
+    "user_issue_summary": "你们那个什么智能客服简直是智障！问了三遍都答非所问！浪费我时...收到就是坏的，质量问题",
+    "issue_categories": [
+      "退货退款",
+      "商品质量问题",
+      "商品咨询",
+      "投诉态度",
+      "建议/反馈"
+    ],
+    "resolution": "已解释说明",
+    "is_resolved": true,
+    "user_sentiment": "negative",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": false
+  },
+  {
+    "conversation_id": "conv_10",
+    "channel": "在线",
+    "agent": "小张",
+    "turn_count": 4,
+    "user_issue_summary": "你好...嗯嗯我想想",
+    "issue_categories": [
+      "商品咨询"
+    ],
+    "resolution": "好的，您慢慢想，有什么需要随时找我。",
+    "is_resolved": true,
+    "user_sentiment": "neutral",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": false
+  },
+  {
+    "conversation_id": "conv_11",
+    "channel": "在线",
+    "agent": "小李",
+    "turn_count": 6,
+    "user_issue_summary": "我那个退款怎么还没到啊 都等了五天了...行吧 再等等",
+    "issue_categories": [
+      "退货退款",
+      "物流问题",
+      "商品咨询"
+    ],
+    "resolution": "查到了，您的退款已于3月5日处理，但银行处理中，预计1-2个工作日到账。如果超过还没收到请再联系我们。",
+    "is_resolved": false,
+    "user_sentiment": "negative",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": true
+  },
+  {
+    "conversation_id": "conv_12",
+    "channel": "在线",
+    "agent": "小王",
+    "turn_count": 5,
+    "user_issue_summary": "能不能帮我看看这款手机和那款手机哪个好...算了不看了 我自己在网上查吧",
+    "issue_categories": [
+      "商品咨询",
+      "建议/反馈"
+    ],
+    "resolution": "首页推荐目前有三款手机，您方便告诉我具体的型号吗？或者截个图给我看看。",
+    "is_resolved": false,
+    "user_sentiment": "neutral",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": false
+  },
+  {
+    "conversation_id": "conv_13",
+    "channel": "电话",
+    "agent": "小张",
+    "turn_count": 8,
+    "user_issue_summary": "我买了个扫地机器人 用了两周就不工作了 你们是不是卖假货...行 地址呢",
+    "issue_categories": [
+      "退货退款",
+      "商品质量问题",
+      "换货",
+      "商品咨询",
+      "建议/反馈"
+    ],
+    "resolution": "换新处理",
+    "is_resolved": true,
+    "user_sentiment": "neutral",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": false
+  },
+  {
+    "conversation_id": "conv_14",
+    "channel": "在线",
+    "agent": "小李",
+    "turn_count": 6,
+    "user_issue_summary": "快递能改派送地址吗 我搬家了...朝阳区建国路88号 远洋国际 12层",
+    "issue_categories": [
+      "物流问题",
+      "商品咨询"
+    ],
+    "resolution": "好的，改址申请已提交。改址可能会导致配送延迟1-2天，请您注意查收。",
+    "is_resolved": true,
+    "user_sentiment": "neutral",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": true
+  },
+  {
+    "conversation_id": "conv_15",
+    "channel": "在线",
+    "agent": "小王",
+    "turn_count": 6,
+    "user_issue_summary": "你们这个退货流程也太复杂了吧 搞半天都不知道怎么操作 能不能...哦原来是这个问题 好了上传成功了",
+    "issue_categories": [
+      "退货退款",
+      "商品咨询",
+      "建议/反馈"
+    ],
+    "resolution": "已记录反馈",
+    "is_resolved": true,
+    "user_sentiment": "neutral",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": true
+  },
+  {
+    "conversation_id": "conv_16",
+    "channel": "在线",
+    "agent": "小张",
+    "turn_count": 4,
+    "user_issue_summary": "我这个问题你说了半天也没解决 给我转人工客服...终于 我的问题是那个退款已经申请了一周了还没动静 订单号 D",
+    "issue_categories": [
+      "退货退款"
+    ],
+    "resolution": "已为您转接人工客服小李，她会继续帮您处理。",
+    "is_resolved": false,
+    "user_sentiment": "neutral",
+    "has_multiple_issues": false,
+    "special_handling": "转人工",
+    "missing_info": false
+  },
+  {
+    "conversation_id": "conv_17",
+    "channel": "电话",
+    "agent": "小李",
+    "turn_count": 6,
+    "user_issue_summary": "我要买的那个包你们啥时候补货啊 等了好久了...行 到时候告诉我一声",
+    "issue_categories": [
+      "商品咨询",
+      "库存"
+    ],
+    "resolution": "好的，到货后第一时间短信通知您。您也可以先加到购物车，到货会自动提醒。",
+    "is_resolved": true,
+    "user_sentiment": "neutral",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": false
+  },
+  {
+    "conversation_id": "conv_18",
+    "channel": "在线",
+    "agent": "小王",
+    "turn_count": 7,
+    "user_issue_summary": "我买了两件衣服 一件大了 一件小了 想换尺码...好吧",
+    "issue_categories": [
+      "退货退款",
+      "换货",
+      "商品咨询"
+    ],
+    "resolution": "尺码换货运费由您承担哦，因为我们发的尺码和您下单时选的是一致的。",
+    "is_resolved": true,
+    "user_sentiment": "neutral",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": false
+  },
+  {
+    "conversation_id": "conv_19",
+    "channel": "在线",
+    "agent": "小张",
+    "turn_count": 5,
+    "user_issue_summary": "我刚下单还没发货 能取消吗...好的 谢谢 买错了",
+    "issue_categories": [
+      "退货退款",
+      "取消订单"
+    ],
+    "resolution": "已取消订单",
+    "is_resolved": true,
+    "user_sentiment": "positive",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": false
+  },
+  {
+    "conversation_id": "conv_20",
+    "channel": "电话",
+    "agent": "小李",
+    "turn_count": 6,
+    "user_issue_summary": "我上次买的东西收到是坏的 跟你们说了半天最后给退了 但是这次...那行吧 先退了再说",
+    "issue_categories": [
+      "退货退款",
+      "商品质量问题",
+      "优惠券/价格",
+      "建议/反馈"
+    ],
+    "resolution": "已发起退款申请",
+    "is_resolved": true,
+    "user_sentiment": "positive",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": false
+  },
+  {
+    "conversation_id": "conv_21",
+    "channel": "在线",
+    "agent": "小王",
+    "turn_count": 6,
+    "user_issue_summary": "这个面膜的成分表能发给我看看吗 我皮肤比较敏感...好吧 推荐给我看看",
+    "issue_categories": [
+      "商品咨询",
+      "建议/反馈"
+    ],
+    "resolution": "这款烟酰胺浓度约2%，属于低浓度配方。不过如果您确定对烟酰胺过敏，建议您先小面积试用，或选择我们另一款不含烟酰胺的面膜，我推荐给您？",
+    "is_resolved": true,
+    "user_sentiment": "neutral",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": false
+  },
+  {
+    "conversation_id": "conv_22",
+    "channel": "在线",
+    "agent": "小张",
+    "turn_count": 5,
+    "user_issue_summary": "快递到了但是放错快递柜了 我取不出来啊...可以 最好送到家",
+    "issue_categories": [
+      "物流问题",
+      "商品咨询"
+    ],
+    "resolution": "了解，这种情况我帮您联系快递公司重新派送到您附近的快递柜或者送货上门，预计需要1-2天。您看可以吗？",
+    "is_resolved": true,
+    "user_sentiment": "positive",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": false
+  },
+  {
+    "conversation_id": "conv_23",
+    "channel": "电话",
+    "agent": "小李",
+    "turn_count": 4,
+    "user_issue_summary": "我给你们提个建议 你们能不能加个功能就是下单之前能先看看实物...嗯 上次买了个颜色和图片差挺多的 有点失望",
+    "issue_categories": [
+      "商品咨询",
+      "建议/反馈"
+    ],
+    "resolution": "已记录反馈",
+    "is_resolved": false,
+    "user_sentiment": "negative",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": false
+  },
+  {
+    "conversation_id": "conv_24",
+    "channel": "在线",
+    "agent": "小王",
+    "turn_count": 4,
+    "user_issue_summary": "我刚才问的问题你们怎么不回了...我问那个蓝牙耳机有没有黑色的",
+    "issue_categories": [
+      "商品咨询",
+      "库存"
+    ],
+    "resolution": "查了一下，这款蓝牙耳机目前有黑色和白色两个颜色可选，库存都充足。您要下单黑色的吗？",
+    "is_resolved": true,
+    "user_sentiment": "neutral",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": false
+  },
+  {
+    "conversation_id": "conv_25",
+    "channel": "在线",
+    "agent": "小张",
+    "turn_count": 4,
+    "user_issue_summary": "你们能不能搞快点 我等了半天了 就一个简单问题...算了 不用了 我在别的地方买到了",
+    "issue_categories": [
+      "商品咨询",
+      "建议/反馈"
+    ],
+    "resolution": "很抱歉没能及时为您服务。如果后续有任何需要，随时联系我们。",
+    "is_resolved": false,
+    "user_sentiment": "neutral",
+    "has_multiple_issues": false,
+    "special_handling": null,
+    "missing_info": false
+  }
+]
